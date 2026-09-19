@@ -1,0 +1,6 @@
+{
+  "name": "3D Sculpt Engine",
+  "description": "Professional 3D sculpting and polygonal modeling software for asset creation, mesh decimation, and multi-format export. Created by Martin Rosario.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
