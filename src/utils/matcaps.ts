@@ -173,6 +173,7 @@ export function getMatcapTexture(type: MatCapType): THREE.CanvasTexture {
 
   const texture = new THREE.CanvasTexture(canvas);
   texture.colorSpace = THREE.SRGBColorSpace;
+  texture.needsUpdate = true;
   matcapCache.set(type, texture);
   return texture;
 }
